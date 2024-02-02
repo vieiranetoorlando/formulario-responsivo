@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    ;
+}
+
+
+
+/* Estilo para a imagem */
+img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilo para os inputs e textarea */
+input[type="text"],
+input[type="email"]
+{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    max-width: 500px;
+}
+
+
+/* Estilo para o botão de enviar */
+input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d5d83e; /* Adapte a cor conforme necessário */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 500px;
+}
+
+/* Estilo para o contêiner principal (opcional) */
+.container {
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+textarea {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    resize: none; /* Impede o redimensionamento */
+    max-width: 500px;/
+
+
+}
